@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\reducer\news-store.spec.js">
+    <testCase name="testing default reducer should return the initial state" duration="24"/>
+    <testCase name="testing default reducer should handle SAVE_NEWS_DATA" duration="3"/>
+    <testCase name="testing default reducer should handle SAVE_NEWS_LIST" duration="1"/>
+    <testCase name="testing default reducer should handle CLEAR_NEWS_LIST" duration="2"/>
+    <testCase name="testing default reducer should handle SAVE_NEWS_INDEX" duration="2"/>
+    <testCase name="testing default reducer should handle REQUEST_NEWS_DATA" duration="1"/>
+    <testCase name="testing default reducer should handle SUCCESS_NEWS_DATA" duration="2"/>
+    <testCase name="testing default reducer should handle FAILURE_NEWS_DATA" duration="1"/>
+  </file>
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\api\news-list.spec.js">
+    <testCase name="actions should create an action to as define in reducer" duration="5"/>
+    <testCase name="actions should create an action to as define in reducer" duration="2"/>
+    <testCase name="Action Creator for Fetching News List should dispatch verify success action with news Fetched" duration="33"/>
+    <testCase name="Action Creator for Fetching News List should dispatch verify success action with search query" duration="3"/>
+  </file>
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\components\header.spec.js">
+    <testCase name="Test case for checking search bar should render input and button correctly" duration="64"/>
+  </file>
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\pages\_app.spec.js">
+    <testCase name="Test case for checking search bar should render input and button correctly" duration="87"/>
+  </file>
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\components\details.spec.js">
+    <testCase name="Test case for checking search bar should render input and button correctly" duration="144"/>
+  </file>
+  <file path="C:\Users\Admin\Documents\test-assignment\src\tests\components\home-page.spec.js">
+    <testCase name="Test case for checking search bar should render input and button correctly" duration="107">
+      <failure message="TypeError: Cannot read property &apos;length&apos; of undefined"><![CDATA[TypeError: Cannot read property 'length' of undefined
+    at HomePage (C:\Users\Admin\Documents\test-assignment\src\components\home-page.js:115:17)
+    at renderWithHooks (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:14985:18)
+    at updateFunctionComponent (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:17356:20)
+    at beginWork (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:19063:16)
+    at HTMLUnknownElement.callCallback (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:3945:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+    at innerInvokeEventListeners (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:338:25)
+    at invokeEventListeners (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:274:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:221:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:94:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Admin\Documents\test-assignment\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:231:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:3994:16)
+    at invokeGuardedCallback (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:4056:31)
+    at beginWork$1 (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:23964:7)
+    at performUnitOfWork (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:22779:12)
+    at workLoopSync (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:22707:5)
+    at renderRootSync (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:22670:7)
+    at performSyncWorkOnRoot (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:22293:18)
+    at C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:11327:26
+    at unstable_runWithPriority (C:\Users\Admin\Documents\test-assignment\node_modules\scheduler\cjs\scheduler.development.js:468:12)
+    at runWithPriority$1 (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:11276:10)
+    at flushSyncCallbackQueueImpl (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:11322:9)
+    at flushSyncCallbackQueue (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:11309:3)
+    at flushPassiveEffectsImpl (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:23620:3)
+    at unstable_runWithPriority (C:\Users\Admin\Documents\test-assignment\node_modules\scheduler\cjs\scheduler.development.js:468:12)
+    at runWithPriority$1 (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:11276:10)
+    at flushPassiveEffects (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom.development.js:23447:14)
+    at Object.<anonymous>.flushWork (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom-test-utils.development.js:992:10)
+    at act (C:\Users\Admin\Documents\test-assignment\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1107:9)
+    at render (C:\Users\Admin\Documents\test-assignment\node_modules\@testing-library\react\dist\pure.js:97:26)
+    at Object.<anonymous> (C:\Users\Admin\Documents\test-assignment\src\tests\components\home-page.spec.js:102:11)
+    at Promise.then.completed (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusHook (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at _runTest (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\run.js:148:5)
+    at _runTestsForDescribeBlock (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\Admin\Documents\test-assignment\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\Admin\Documents\test-assignment\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\Admin\Documents\test-assignment\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (C:\Users\Admin\Documents\test-assignment\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+  </file>
+</testExecutions>
